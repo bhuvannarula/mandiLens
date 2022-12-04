@@ -41,6 +41,7 @@ We have created dataset ourselves, which includes different buildings in North C
 - flower1 (Marigold Flower)
 
 We were also required to provide a way for user to upload their own image, upon which we then predicted the class it belongs to.
+
 ## Working & Implementation
 
 We have implemented our CNN Model in a Google Colab Notebook. We have trained the model ourselves, and saved the same in GitHub, which the user can directly use for prediction.
@@ -53,14 +54,18 @@ We have removed the top of model, and included two custom layers,
 These layers act as the output layers, and we trained the parameters for these layers.
 
 We chose *'adam'* as our optimizer, and *'categorical_crossentropy'* as our loss function, and *'accuracy'* as our metrics during compiling of model.
+
 ## Metrics of Model
 Parameters used,
 - Batch-Size = 16
 - Epochs = 10
+
 We were able to achieve following accuracies,
 - Validation Accuracy : **94.38%**
 - Testing Accuracy : **97.06%**
+
 The *model* corresponding to these metrics has been saved as 'savedModels/model.h5' in this GitHub Repository. Same can be imported in the Google Colab Notebook and be used for prediction and accuracy metrics. Provision for same is implemented in the notebook.
+
 ## Roadmap
 
 - Improve and increase the dataset to include more buildings & around IIT Mandi
