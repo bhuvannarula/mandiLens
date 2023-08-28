@@ -11,7 +11,7 @@
 
 Just open  the Google Colab .ipynb file in Google Colaboratory.
 
-#### For custom-training, (ignore for just prediction)
+#### For custom-training, (ignore for just prediction )
 
 To access dataset, you need to mount your Google Drive,
 
